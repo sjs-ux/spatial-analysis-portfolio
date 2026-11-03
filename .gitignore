@@ -1,0 +1,29 @@
+# Raw and processed data (large; document sources in each week's README instead)
+**/data/
+*.tif
+*.tiff
+*.nc
+*.zip
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# QGIS / Blender temp files
+*.qgz~
+*.blend1
+
+# macOS
+.DS_Store
+
+# Private learning plan (not published)
+PLAN.md
